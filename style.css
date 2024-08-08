@@ -1,0 +1,154 @@
+body,h1,h2,h3,h4,h5,h6,span{
+   
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ 
+} 
+
+
+img{
+  max-width: 100%  ;
+}
+/*Header-Section*/
+
+.header-emran{
+
+}
+.header-emran span{/*! font-size: di; */display: inline-block;}
+.header-emran .mobile-icon{color: white;background: #6278df;display: inline-block;height: 2.6rem;width: 2.4rem;text-align: center;font-size: 1.67rem;line-height: 2.5rem;border-radius: .5rem;}
+
+.emran-ul{font-size: 1.5rem;padding-left: 6rem;color: black;}
+.emran-li{}
+
+
+/*Slider-Section*/
+
+.slider-section{
+  background: url(./img/04.jpg) no-repeat center center;
+ background-size: cover;
+ padding: 200px 0;
+position: relative;
+z-index: 1;
+} 
+
+.slider-section::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background:  rgba(0, 0, 0, 0.473);
+  z-index:  -1;
+}
+.App-amp{font-size: 1.6rem;font-weight: 500;margin-left: 15px;}
+
+.slider-caption{}
+.slider-caption p{font-size: 40px;font-weight: 300;}
+.slider-caption h2{font-size: 45px;font-weight: 600;margin-bottom: 39px;}
+
+
+/*about-sec*/
+
+.about-sec{background: #86929d;padding: 60px 0px;}
+.about-sec h1{font-weight: 500;font-size: 3rem;}
+.about-sec p{font-size: 2rem;margin-top: 3rem;line-height: 2.9rem;}
+.about-sec img{border-radius: 16px;}
+
+.feature-section{}
+.feature-header{}
+.feature-header h2{}
+.feature-header p{}
+.feature-item{margin: 10px 0px;box-shadow: 0px 0px 15px 0px;margin: 10px 0px;border-radius: 10px 0 0 10px;}
+.left-image{width: 35%;}
+.left-image img{border-radius: 10px 0 0 10px;height: 196px;}
+.feature-img-left{width: 65%;padding-left: 17px;padding-top: 25px;}
+.feature-img-left h2{font-size: 27px;}
+.feature-img-left p{font-size: 19px;}
+ 
+
+.fortfolio{}
+.fortfolio-img a{position: relative; display: block;}
+.fortfolio-img a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(202, 80, 80, 0.578);
+  opacity: 0;
+  visibility: hidden;
+ 
+}
+.fortfolio-img:hover a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.pricing-table{}
+.pricing-table .pricing-heading{}
+.pricing-table .pricing-heading h2{}
+.pricing-table .pricing-heading p{}
+.pricing-item{box-shadow: 0px 0px 13px 2px;padding: 21px 18px;}
+.pricing-item h1{padding-left: 30px;}
+.pricing-item h5{margin-top: -28px;padding-left: 33px;}
+.pricing-item ul{list-style: none;padding-bottom: 31px;}
+.pricing-item ul li{font-size: 26px;padding: 9px 0px;color: #777;}
+.pricing-item ul li span{display: inline-block;width: 44px;color: #6278df;font-weight: bold;}
+.pricing-item ul li i{font-weight: bold;font-size: 36px;display: inline-block;}
+.pricing-btn{}
+.pricing-btn a{}
+
+.testomonial-section{padding: 46px 0;background: aliceblue;}
+.testomonial-section h5{}
+.testomonial-section h1{}
+.testomonial-section span{font-size: 70px;opacity: 0.1;}
+.testomonial-section p{padding-bottom: 30px;/*! position: absolute; */}
+
+.testo-img-sec {width: 361px;text-align: center;display: inline-block;position: relative;}
+.testo-img-sec img{border-radius: 50%;width: 107px;}
+.testo-img-sec h2{/*! position: absolute; */padding-left: 117px;font-weight: 600;padding-top: 16px;margin-bottom: -3px;}
+.testo-img-sec p{padding-left: 22px;display: inline-block;font-size: 29px;}
+.testo-leka{text-align: left;}
+
+
+
+
+
+/*team-card*/
+
+.team-history-sec{background: #dbdbdb;padding: 61px 0;}
+.team-hd{}
+.team-p{padding-bottom: 29px;}
+.team-p p{margin-bottom: 85px;}
+
+.team-card{}
+.card-itm{box-shadow: 0px 0px 17px 1px;padding: 7px;}
+.card-itm img{width: 178px;height: auto;margin-top: -94px;margin-left: 13px;}
+.crd-b{}
+.c.card-itm img{border-radius: 50%;display: inline-block;width: 125px;}
+.crd-b h2{}
+.crd-b h4{padding-bottom: 20px;}
+.crd-b p{line-height: 1.8;}
+.crd-b a{box-shadow: 0 0 58px 0px;font-weight: 700;}
+    
+.button-app{text-align: center;}
+.btn-app{display: inline-block;margin-top: 43px;margin: 40px 15px;}
+.btn-app a{}
+.btn-app i{font-size: 25px;margin: -2px 8px; }
+
+
+
+
+.app-img{width: 66%;margin-bottom: 21px;}
+
+.texttt h4{padding: 20px;}
+.footer{}
+
+
+.app-sec{background: aliceblue;}
